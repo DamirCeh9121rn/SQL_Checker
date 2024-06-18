@@ -1,0 +1,47 @@
+package model.enums;
+
+public enum PrettyWords {
+
+    SELECT,
+    FROM,
+    WHERE,
+    LIKE,
+    AND,
+    NOT_LIKE,
+    OR,
+    BETWEEN,
+    MAX,
+    IS_NOT_NULL,
+    IS_NULL,
+    ORDER_BY,
+    IN,
+    DISTINCT,
+    TO_DATE,
+    CREATE,
+    TABLE,
+    VALUES,
+    UPDATE,
+    SET,
+    GROUP_BY,
+    HAVING,
+    ON,
+    USING,
+    REPLACE,
+    PROCEDURE,
+    NUMBER,
+    OUT,
+    TYPE,
+    BEGIN,
+    END,
+    DECLARE,
+    VARCHAR,
+    FUNCTION,
+    RETURN,
+    ROWNUM,
+    WITH,
+    FULL,
+    DELETE,
+    JOIN
+
+
+}

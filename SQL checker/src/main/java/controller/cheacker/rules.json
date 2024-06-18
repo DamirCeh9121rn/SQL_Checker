@@ -1,0 +1,52 @@
+
+
+[
+    {
+            "name" : "MandatoryPartsQueryCheck",
+            "greska" : "Nedostaje kljucna rec koja ide uz %s",
+            "sugestija" : "Uz kljucnu rec %s koristite i %s"
+
+
+    },
+    {
+            "name" : "SequenceOfStatementsCheck",
+            "greska" : "Kljucna rec %s nije na dobroj poziciji",
+            "sugestija" : "Kljucna rec %s treba da se nalazi nakon %s"
+
+
+    },
+    {
+
+            "name" : "AliasesCheck",
+            "greska" : "Alias %s se mora nalaziti pod navodnicima jer ima vise reci",
+            "sugestija" : "Alias zapisati ovako  \"%s\""
+
+    },
+    {
+
+            "name" : "WhereCheck",
+            "greska" : "Posle WHERE ne sme da se nalazi funkcija agregacije %s",
+            "sugestija" : "Posle WHERE koristiti neko poredjenje slicno %s = 5 "
+
+    },
+    {
+
+            "name": "GroupByCheck",
+            "greska": "Nedostaje group by %s",
+            "sugestija": "Ukoliko se posle Select-a nalazi %s u gorup by-u se treba nalaziti &s"
+    },
+    {
+
+            "name": "ForeignKeyCheck",
+            "greska": "Kolona %s nije kljuc za spajanje tavbela %s i %s",
+            "sugestija": "Koristite kljuc %s"
+
+    },
+    {
+
+            "name": "BulkImportCheck",
+            "greska": "Kolone %s iz CSV fajla ne odgovaraju tabeli %s",
+            "sugestija": "Koristiti fajl koji ima kolone %s"
+
+    }
+]
